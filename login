@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -7,9 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.5">
-    <title>Signin Template · Bootstrap</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/sign-in/">
+    <title>Login Adm - Uninter</title>
 
     <!-- Bootstrap core CSS -->
 <link href="https://getbootstrap.com/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -32,19 +29,19 @@
       }
     </style>
     <!-- Custom styles for this template -->
-    <link href="https://getbootstrap.com/docs/4.3/examples/sign-in/signin.css" rel="stylesheet">
+    <link href="signin.css" rel="stylesheet">
   </head>
   <body class="text-center">
     <form action="dash.html" class="form-signin">
-  <img class="mb-4" src="https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-  <h1 class="h3 mb-3 font-weight-normal">Area Administrativa</h1>
+  <img class="mb-4" src="logo-uninter.png" alt="" width="200" height="150">
+  <h1 class="h3 mb-3 font-weight-normal">Área Administrativa</h1>
   <label for="inputEmail" class="sr-only">Email address</label>
   <input type="text" id="nickname" class="form-control" placeholder="Login" required autofocus>
   <label for="inputPassword" class="sr-only">Password</label>
   <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
   <div class="checkbox mb-3">
     <label>
-      <input type="checkbox" value="remember-me"> Remember me
+      <input type="checkbox" value="remember-me"> Lembre-me
     </label>
   </div>
   <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
