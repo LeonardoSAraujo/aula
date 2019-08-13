@@ -33,13 +33,15 @@
   </head>
   <body class="text-center">
     <form action="dash.html" class="form-signin">
-  <img class="mb-4" src="logo-uninter.png" alt="" width="200" height="150">
-  <h1 class="h3 mb-3 font-weight-normal">Área Administrativa</h1>
+  <img class="mb-4" src="logo-uninter.png" alt="" width="300" height="200">
+  <h3 class="local" >Área Administrativa</h3>
   <label for="inputEmail" class="sr-only">Email address</label>
-  <input type="text" id="nickname" class="form-control" placeholder="Login" required autofocus>
+  <input type="text" id="nickname" class="form-control" placeholder="Login" required autofocus> 
+  <br class="linha"/>
   <label for="inputPassword" class="sr-only">Password</label>
   <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
   <div class="checkbox mb-3">
+    <br/>
     <label>
       <input type="checkbox" value="remember-me"> Lembre-me
     </label>
