@@ -52,27 +52,81 @@
           <li class="nav-item">
             <a class="nav-link active" href="#">
               <span data-feather="home"></span>
-              Dashboard <span class="sr-only">(current)</span>
+              Início <span class="sr-only">(current)</span>
             </a>
           </li>
+          <!-- Segundo item do menu -->
+          <li class="nav-item" >
+            <a class="nav-link" data-toggle="collapse" href="#componentsCollapse">
+              <span data-feather="folder"></span>
+              Cadastros
+            </a>
+          </li>
+          <!-- Sub itens dos cadastros -->
+          <b class="caret"></b>
+    </span>
+  </a>
+          <div class="collapse" id="componentsCollapse">
+    <ul class="nav">
+      <li class="nav-item ">
+        <a class="nav-link" href="#0"> 
+          <span data-feather="file-text"></span>
+          Clientes
+        </a>
+      </li>
+    </ul>
+          </div>
+      </li>
+<div class="collapse" id="componentsCollapse">
+    <ul class="nav">
+      <li class="nav-item ">
+        <a class="nav-link" href="#0"> 
+          <span data-feather="file-text"></span>
+          Fornecedores
+        </a>
+      </li>
+    </ul>
+  </div>
+</li>
+<div class="collapse" id="componentsCollapse">
+    <ul class="nav">
+      <li class="nav-item ">
+        <a class="nav-link" href="#0"> 
+          <span data-feather="file-text"></span>
+          Produtos
+        </a>
+      </li>
+    </ul>
+  </div>
+</li>
+<div class="collapse" id="componentsCollapse">
+    <ul class="nav">
+      <li class="nav-item ">
+        <a class="nav-link" href="#0"> 
+          <span data-feather="file-text"></span>
+          Serviços
+        </a>
+      </li>
+    </ul>
+  </div>
+</li>
+
+          <!-- Terceiro item do menu -->
+
           <li class="nav-item">
             <a class="nav-link" href="#">
-              <span data-feather="file"></span>
-              Orders
+              <span data-feather="folder"></span>
+              Relatórios
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <span data-feather="shopping-cart"></span>
-              Products
-            </a>
-          </li>
+          <!-- Quarto item do menu -->
           <li class="nav-item">
             <a class="nav-link" href="#">
               <span data-feather="users"></span>
-              Customers
+              Usuários
             </a>
           </li>
+          <!-- Editado até aqui -->
           <li class="nav-item">
             <a class="nav-link" href="#">
               <span data-feather="bar-chart-2"></span>
