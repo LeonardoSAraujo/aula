@@ -120,7 +120,7 @@
           </li>
           <!-- Quarto item do menu -->
           <li class="nav-item">
-            <a class="nav-link" href="fichacadastro">
+            <a class="nav-link" href="fichacadastro.html">
               <span data-feather="users"></span>
               Usuários
             </a>
@@ -175,6 +175,7 @@
       </div>
     </nav>
                              <!-- Início do formulário de cadastro -->
+   	<div class="card text-left">
    	<div class="formulario-cadastro">
   <h3>Formulário de cadastro</h3>
 </div>
@@ -182,12 +183,12 @@
   <form action="" method="POST">
     <div class="fname">
       <label>
-        <input type="text" placeholder="Nome*" name="name" size="20" required>
+        <input type="text" placeholder="Nome*" name="name" size="50" required>
       </label>
     </div>
     <div class="cep">
       <label>
-        <input type="text" placeholder="CEP*" name="zip-code" size="20" required>
+        <input type="text" placeholder="CEP*" name="zip-code" size="50" required>
       </label>
     </div>
     <div class="endereço">
@@ -212,7 +213,36 @@
     </div>
     <div class="uf">
      	<label>
-     	 <input type="text" placeholder="Estado*" name="uf" size="50" required>
+     	 <select class="basic simple form-control form-control-sm" name="estado" required> 
+            <option value="estado">Selecione o Estado*</option> 
+            <option value="ac">Acre</option> 
+            <option value="al">Alagoas</option> 
+            <option value="am">Amazonas</option> 
+            <option value="ap">Amapá</option> 
+            <option value="ba">Bahia</option> 
+            <option value="ce">Ceará</option> 
+            <option value="df">Distrito Federal</option> 
+            <option value="es">Espírito Santo</option> 
+            <option value="go">Goiás</option> 
+            <option value="ma">Maranhão</option> 
+            <option value="mt">Mato Grosso</option> 
+            <option value="ms">Mato Grosso do Sul</option> 
+            <option value="mg">Minas Gerais</option> 
+            <option value="pa">Pará</option> 
+            <option value="pb">Paraíba</option> 
+            <option value="pr">Paraná</option> 
+            <option value="pe">Pernambuco</option> 
+            <option value="pi">Piauí</option> 
+            <option value="rj">Rio de Janeiro</option> 
+            <option value="rn">Rio Grande do Norte</option> 
+            <option value="ro">Rondônia</option> 
+            <option value="rs">Rio Grande do Sul</option> 
+            <option value="rr">Roraima</option> 
+            <option value="sc">Santa Catarina</option> 
+            <option value="se">Sergipe</option> 
+            <option value="sp">São Paulo</option> 
+            <option value="to">Tocantins</option> 
+         </select>
      	</label>
     </div>
     <div class="cidade">
@@ -244,6 +274,8 @@
       <button type="submit">Create Account</button>
     </div>
   </form>
+  <br/>
+</div>
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="https://getbootstrap.com/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
